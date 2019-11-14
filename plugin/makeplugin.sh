@@ -8,11 +8,11 @@
 #  zzz 2014-08 added support for su3 files
 #
 PUBKEYDIR=$HOME/.i2p-plugin-keys
-PUBKEYFILE=$PUBKEYDIR/plugin-public-signing.key
-PRIVKEYFILE=$PUBKEYDIR/plugin-private-signing.key
-B64KEYFILE=$PUBKEYDIR/plugin-public-signing.txt
-PUBKEYSTORE=$PUBKEYDIR/plugin-su3-public-signing.crt
-PRIVKEYSTORE=$PUBKEYDIR/plugin-su3-keystore.ks
+PUBKEYFILE=$PUBKEYDIR/testing-public-signing.key
+PRIVKEYFILE=$PUBKEYDIR/testing-private-signing.key
+B64KEYFILE=$PUBKEYDIR/testing-public-signing.txt
+PUBKEYSTORE=$PUBKEYDIR/testing-su3-public-signing.crt
+PRIVKEYSTORE=$PUBKEYDIR/testing-su3-keystore.ks
 KEYTYPE=RSA_SHA512_4096
 #export I2P=../i2p/pkg-temp
 
